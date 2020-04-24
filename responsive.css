@@ -1,0 +1,165 @@
+@media(max-width: 1000px){
+  header{
+    font-size: 0.8em;
+  }
+
+  .header-right a{
+    padding: 0 20px;
+  }
+  .top-wrapper{
+    font-size: 1.3rem;
+  }
+  .heading{
+    font-size: 0.8rem;
+  }
+  .contents p{
+    font-size: 0.9rem;
+  }
+
+   .profile h2{
+     font-size: 1.6rem;
+   }
+   .background{
+     font-size: 0.9em;
+   }
+
+  /*------音楽レクについて------*/
+  .about{
+  font-size:0.7rem;
+  padding-bottom:1rem;
+  }
+
+  .m-heading{
+    font-size:0.8em;
+  }
+  .m-contents p{
+    font-size:0.9em;
+  }
+  .m-contents{
+    margin:5rem 0;
+  }
+  /*------メディアについて------*/
+  .introduction{
+  font-size:0.9rem;
+  }
+  .i-heading{
+    font-size:0.9rem;
+  }
+  /*------メッセージ------------*/
+  .s-heading{
+   font-size:0.8em;
+ }
+
+ .message{
+   font-size:0.8em;
+ }
+ /*------依頼の流れ------*/
+  .c-heading{
+  font-size:0.8em;
+  }
+  .cc-heading .information{
+  font-size:0.8em;
+  }
+  .information{
+    font-size:0.8em;
+  }
+
+}
+
+@media(max-width: 670px){
+  header{
+   height:50px;
+  }
+  .header-right{
+  height:50px;
+  }
+  .header-right a{
+  font-size:0.8em;
+  line-height:50px;
+  padding: 0px;
+  }
+ .h-container{
+   padding: 0 6px;
+  }
+  .top-wrapper{
+   font-size:0.6rem;
+   margin-top:50px;
+  }
+  .heading{
+   font-size: 0.4rem;
+  }
+  .contents p{
+    font-size: 0.7em;
+  }
+  .profile{
+    margin-top:1em;
+  }
+  .profile h2{
+     font-size: 1rem;
+   }
+   .name{
+     font-size: 1em;
+   }
+   .background{
+   font-size: 0.7em;
+   }
+   /*------音楽レクについて------*/
+   .about{
+     font-size:0.4em;
+     padding-bottom:0rem;
+     padding-top:5em;
+   }
+   .m-heading{
+    font-size:0.5em;
+  }
+  .m-contents p{
+    font-size: 0.7em;
+  }
+  .m-contents{
+    margin:3rem 0;
+  }
+  .picture{
+    grid-template-columns:1fr ;
+  }
+  /*------メディアについて------*/
+  .introduction{
+  font-size:0.7rem;
+  }
+   .i-heading{
+    font-size:0.6rem;
+  }
+  .contact p{
+    font-size:0.7em;
+  }
+  .bookImage{
+    width:100%;
+  }
+
+  /*------メッセージ------*/
+
+  .s-heading{
+   font-size:0.6em;
+  }
+
+  .message{
+  font-size:0.7em;
+  }
+
+  /*------依頼の流れ------*/
+  .c-heading{
+    font-size:0.5em;
+  }
+  .cc-heading {
+    font-size:0.6em;
+  }
+  .information{
+    font-size:0.6em;
+  }
+  .contact{
+    margin:3em 0;
+  }
+  .c-wrapper{
+    margin-top:6em;
+  }
+
+}
