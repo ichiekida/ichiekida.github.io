@@ -1,0 +1,326 @@
+@charset "UTF-8";
+
+*{
+  box-sizing:border-box;
+}
+a{
+  text-decoration:none;
+}
+body{
+  margin:0;
+}
+
+.container{
+  max-width:1170px;
+  padding: 0 8vw;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+header{
+  height: 70px;
+  width:100%;
+  position:fixed;
+  top:0;
+  z-index:10;
+
+  background-color: hsl(54, 74%, 94%);
+
+  font-size: 1rem;
+  box-shadow: inset 0px 0px 20px 0px #fbe95b;
+}
+
+.header-right{
+  display:flex;
+  justify-content: space-around;
+  height:70px;
+}
+
+.header-right a{
+  color: #f44336;
+  display:block;
+  line-height:70px;
+  padding: 0 2em;
+}
+
+.header-right a:hover{
+
+  color: #FFC107;
+}
+.mark{
+  background-color:#ffdcd9;
+}
+
+.top-wrapper{
+  background-image:url(images/main-picture.jpg);
+  background-size:cover;
+  margin-top:70px;
+  font-size: 2rem;
+  color: rgb(104, 179, 245);
+  text-align:center;
+  height: 60vw;
+}
+
+.top-wrapper p{
+  letter-spacing: 0.3em;
+  font-family: Yu Mincho;
+  font-weight: 800;
+  color: rgb(53, 202, 220);
+  text-shadow: 2px -2px 0px white;
+  padding-top: 1em;
+}
+.mask{
+  height:100%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.contents{
+  /* text-align: center; */
+  padding-bottom: 5em;
+}
+
+.heading{
+  padding-top: 8em;
+  padding-bottom: 8em;
+  letter-spacing: 0.5em;
+  text-align: center;
+}
+
+.contents p{
+  letter-spacing: 0.1em;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+.heading h1{
+  font-family:Yu Mincho;
+  color:rgb(98,219,234);
+}
+.note{
+  color:#FF9800;
+}
+
+.profile h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: Yu Mincho;
+    color: #f44336;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    letter-spacing: 0.5em;
+    border-top: 2px #f44336 dotted;
+}
+
+.name {
+    font-family: Yu Mincho;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.4em;
+}
+
+.profile {
+    margin: 6em 0;
+
+}
+
+.background{
+
+margin: 5em 0;
+
+font-size: 1.2rem;
+
+letter-spacing: 0.1em;
+}
+
+footer{
+  background-color:hsl(54, 74%, 94%);
+  text-align:center;
+  padding: 0.5em 0;
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+
+footer p{
+  color:#9E9E9E;
+  font-size:0.5em
+
+}
+
+.wrapper{
+    min-height: 100vh;
+    position:relative;
+    padding-bottom:3em;
+}
+
+/*------音楽レクについて------*/
+
+.about{
+  margin-top:70px;
+  text-align:center;
+  font-family:Yu Mincho;
+  color:rgb(103, 189, 228);
+  padding-top: 8em;
+  padding-bottom: 2em;
+  letter-spacing:0.5em;
+}
+
+.m-contents{margin: 6em 0;}
+.m-heading{
+  letter-spacing:0.3em;
+  font-family:Yu Mincho;
+  color:rgb(98,219,234);
+  margin: 1em 0;
+}
+
+.m-contents p{
+  font-size: 1em;
+  letter-spacing: 0.2em;
+}
+
+
+.picture{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:5px;
+}
+
+.pictures img{
+  width:100%;
+}
+.pictures{
+  margin-bottom:6em;
+}
+
+/*------メディアについて------*/
+.i-heading{
+    margin-top:8em;
+    text-align:center;
+    color: rgb(103, 189, 228);
+    font-family:Yu Mincho;
+    margin-bottom:3em;
+    letter-spacing:0.6em;
+}
+.introduction{
+  letter-spacing:0.1em;
+  text-align:center;
+  font-size:1.2em;
+}
+
+.ii-heading{
+  margin-bottom:2em;
+}
+.star{
+  color:#FF9800;
+}
+.bookImage{
+  width:70%;
+}
+.tv{
+  margin:8em 0;
+
+}
+.sumareku{
+  padding-bottom:2em;
+}
+.web{
+  padding:8em 0;
+}
+.movieImage{
+  max-width:100%;
+  padding-top:3em;
+}
+.btn-wrapper{
+  margin-top:3em;
+}
+.btn{
+  color:rgb(103, 189, 228);
+  diaplay:block;
+  padding:0.8em 2em;
+  border:2px solid rgb(103, 189, 228);
+  border-radius: 0.5rem;
+}
+.btn:hover{
+ opacity:0.6;
+}
+
+/*-----メッセージについて------*/
+.s-heading{
+  margin-top:8em;
+  margin-bottom:4em;
+  text-align:center;
+  letter-spacing:0.4em;
+  font-family:Yu Mincho;
+  color:rgb(98,219,234);
+}
+.m1{
+  margin:4em 0;
+  text-align:justify;
+  letter-spacing: 0.2em;
+}
+.m2{
+  color:#f44336;
+}
+.m3{
+  width:100%
+}
+/*------依頼の流れ------*/
+.c-wrapper{
+  margin-top:8em;
+}
+.contact{
+  margin:5em ;
+}
+.c-heading{
+  font-family:Yu Mincho;
+  color:rgb(103, 189, 228);
+  text-align:center;
+  letter-spacing:1em;
+
+}
+.cc-heading{
+  font-family:Yu Mincho;
+  color:rgb(98,219,234);
+  margin-bottom:1em;
+  letter-spacing:0.3em;
+
+}
+.information{
+    font-family:Yu Mincho;
+    color:rgb(103, 189, 228);
+    margin-bottom:1em;
+    margin-top: 3em;
+    letter-spacing:0.3em
+}
+.contact p{
+  font-size:1em;
+  letter-spacing: 0.2em;
+}
+.inquiry{
+  text-align:center;
+}
+.form{
+  color:white;
+  display:inline-block;
+  padding:0.6em;
+  text-align:center;
+  background-color:#FFC107;
+  border-radius:0.2em;
+}
+.form:hover{
+  opacity:0.7;
+}
+/*------お問い合わせ------*/
+.go{
+  margin-top:70px;
+}
+/*------動き------*/
+.fade{
+  animation: fadeIn 3s ease 0s 1 normal;
+}
+@keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+}
